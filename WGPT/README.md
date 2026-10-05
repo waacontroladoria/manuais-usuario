@@ -17,7 +17,7 @@ Este manual explica **o que cada tela faz**, **como a IA decide quem responde** 
     - [4.2 Os agentes e suas especialidades](#42-os-agentes-e-suas-especialidades)
     - [4.3 Usar a tela](#43-usar-a-tela)
     - [4.4 Escolher as fontes de consulta](#44-escolher-as-fontes-de-consulta)
-  - [5. Escrever bons pedidos](#5-escrever-bons-pedidos)
+  - [5. Detalhar pedidos](#5-detalhar-pedidos)
     - [5.1 Use as sugestões de instrução](#51-use-as-sugestões-de-instrução)
     - [5.2 Exemplos — do genérico ao eficaz](#52-exemplos--do-genérico-ao-eficaz)
   - [6. Revisar um texto — Revisão Textual](#6-revisar-um-texto--revisão-textual)
@@ -166,7 +166,7 @@ Se nenhuma fonte for marcada, o Pesquisador decide sozinho o que consultar. Marc
 
 ---
 
-## 5. Escrever bons pedidos
+## 5. Detalhar pedidos
 
 Quanto mais contexto e mais claro o objetivo, melhor o Orquestrador identifica a tarefa e melhor é a resposta. Evite pedidos genéricos, especialmente quando há um documento anexado.
 
