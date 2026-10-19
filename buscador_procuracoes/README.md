@@ -1,8 +1,8 @@
 # Manual do Usuário — Buscador de Procurações
 
-**Versão do programa:** 0.1.0  
-**Manual gerado em:** 13/08/2026
-*Commit: não registrado — a pasta do projeto não era um repositório git no momento da geração deste guia.*
+> **Atualizado em:**  0.1.0  
+> **Versão atual:** 13/08/2026
+> *Commit: não registrado — a pasta do projeto não era um repositório git no momento da geração deste guia.*
 
 Este guia é para quem **usa** o Buscador de Procurações no dia a dia: localizar a procuração
 de uma pessoa e abrir o PDF. Você não precisa saber programar nem instalar nada além do
@@ -12,23 +12,33 @@ programa.
 
 ## Sumário
 
-1. [O que o Buscador de Procurações faz](#1-o-que-o-buscador-de-procurações-faz)
-2. [Antes de começar](#2-antes-de-começar)
-3. [Primeiros passos: encontrar uma procuração](#3-primeiros-passos-encontrar-uma-procuração)
-4. [Conhecendo a tela](#4-conhecendo-a-tela)
-5. [Buscar pelo nome da pessoa](#5-buscar-pelo-nome-da-pessoa)
-6. [Entender por que a mesma pessoa aparece mais de uma vez](#6-entender-por-que-a-mesma-pessoa-aparece-mais-de-uma-vez)
-7. [Filtrar por entidade (sindicato)](#7-filtrar-por-entidade-sindicato)
-8. [Navegar pelas pastas e cidades](#8-navegar-pelas-pastas-e-cidades)
-9. [Ordenar a lista de resultados](#9-ordenar-a-lista-de-resultados)
-10. [Conferir o documento antes de abrir](#10-conferir-o-documento-antes-de-abrir)
-11. [Abrir o PDF](#11-abrir-o-pdf)
-12. [Abrir a pasta do arquivo no Explorador](#12-abrir-a-pasta-do-arquivo-no-explorador)
-13. [Atualizar o índice quando há documentos novos](#13-atualizar-o-índice-quando-há-documentos-novos)
-14. [O que o buscador não encontra](#14-o-que-o-buscador-não-encontra)
-15. [Problemas frequentes](#15-problemas-frequentes)
-16. [Onde o programa guarda seus dados](#16-onde-o-programa-guarda-seus-dados)
-17. [Glossário](#17-glossário)
+- [Manual do Usuário — Buscador de Procurações](#manual-do-usuário--buscador-de-procurações)
+  - [Sumário](#sumário)
+  - [1. O que o Buscador de Procurações faz](#1-o-que-o-buscador-de-procurações-faz)
+  - [2. Antes de começar](#2-antes-de-começar)
+  - [3. Primeiros passos: encontrar uma procuração](#3-primeiros-passos-encontrar-uma-procuração)
+  - [4. Conhecendo a tela](#4-conhecendo-a-tela)
+  - [5. Buscar pelo nome da pessoa](#5-buscar-pelo-nome-da-pessoa)
+  - [6. Entender por que a mesma pessoa aparece mais de uma vez](#6-entender-por-que-a-mesma-pessoa-aparece-mais-de-uma-vez)
+  - [7. Filtrar por entidade (sindicato)](#7-filtrar-por-entidade-sindicato)
+  - [8. Navegar pelas pastas e cidades](#8-navegar-pelas-pastas-e-cidades)
+  - [9. Ordenar a lista de resultados](#9-ordenar-a-lista-de-resultados)
+  - [10. Conferir o documento antes de abrir](#10-conferir-o-documento-antes-de-abrir)
+  - [11. Abrir o PDF](#11-abrir-o-pdf)
+  - [12. Abrir a pasta do arquivo no Explorador](#12-abrir-a-pasta-do-arquivo-no-explorador)
+  - [13. Atualizar o índice quando há documentos novos](#13-atualizar-o-índice-quando-há-documentos-novos)
+  - [14. O que o buscador não encontra](#14-o-que-o-buscador-não-encontra)
+  - [15. Problemas frequentes](#15-problemas-frequentes)
+    - ["Não foi possível acessar o repositório em: \\servidor\\Procuracoes\_Clientes"](#não-foi-possível-acessar-o-repositório-em-servidorprocuracoes_clientes)
+    - [O cabeçalho mostra "Falha ao atualizar índice"](#o-cabeçalho-mostra-falha-ao-atualizar-índice)
+    - ["O arquivo não foi encontrado (pode ter sido movido ou removido)"](#o-arquivo-não-foi-encontrado-pode-ter-sido-movido-ou-removido)
+    - ["Não foi possível gerar a pré-visualização." ou "Pré-visualização indisponível"](#não-foi-possível-gerar-a-pré-visualização-ou-pré-visualização-indisponível)
+    - ["O PDF não contém páginas."](#o-pdf-não-contém-páginas)
+    - [A pessoa existe, mas não aparece na busca](#a-pessoa-existe-mas-não-aparece-na-busca)
+    - [A janela demora a abrir na primeira vez](#a-janela-demora-a-abrir-na-primeira-vez)
+    - [O texto de alguns botões está difícil de ler](#o-texto-de-alguns-botões-está-difícil-de-ler)
+  - [16. Onde o programa guarda seus dados](#16-onde-o-programa-guarda-seus-dados)
+  - [17. Glossário](#17-glossário)
 
 ---
 
