@@ -1,10 +1,8 @@
-# Manual do Usuário — WAA · Gestor de Notas de Expediente
+# Manual do Usuário — Gestor de Notas de Expediente
 
-**Versão do programa:** v0.6
-
-**Data deste manual:** 29/09/2026
-
-**Commit de referência:** `d6e97b5`
+> **Atualizado em:** 29/09/2026
+> **Versão atual:** v0.6
+> **Commit de referência:** `d6e97b5`
 
 Este manual é para quem **usa** o programa. Ele não trata de código nem de
 instalação técnica — cada seção responde a uma tarefa do seu dia: importar,
