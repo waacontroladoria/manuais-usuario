@@ -1,10 +1,10 @@
 # Manual do Usuário — WAA · Gestor de Notas de Expediente
 
-**Versão do programa:** v0.6
+**Versão do programa:** v0.7
 
-**Data deste manual:** 29/09/2026
+**Data deste manual:** 03/11/2026
 
-**Commit de referência:** `d6e97b5`
+**Commit de referência:** `abdffc7`
 
 Este manual é para quem **usa** o programa. Ele não trata de código nem de
 instalação técnica — cada seção responde a uma tarefa do seu dia: importar,
@@ -86,7 +86,7 @@ O que você precisa ter em mãos:
 
 1. Abra a pasta do programa e dê **duplo clique** em `GestorNotas.exe`.
 2. Aguarde alguns segundos. A primeira abertura costuma demorar mais que as seguintes.
-3. A janela **WAA · Gestão de Notas de Expediente — v0.6** aparece, já na aba
+3. A janela **WAA · Gestão de Notas de Expediente — v0.7** aparece, já na aba
    **Notas de expediente**, com a tabela vazia. No rodapé você lê
    **"Nenhuma lista aberta"** e **"0 notas"**.
 
@@ -433,6 +433,9 @@ daquela pessoa, com os arquivos que você escolher em anexo.
    ainda não saíram em nenhum e-mail desta sessão; os que já foram enviados
    aparecem desmarcados, para não repetirem o envio sem querer. **Marcar
    todos** e **Desmarcar todos** resolvem a lista inteira de uma vez.
+   Logo abaixo da lista, a linha **Total selecionado** mostra quanto somam os
+   arquivos marcados — por exemplo, `Total selecionado: 12.4 MB de 24 MB · 3
+   arquivo(s)` — e muda a cada arquivo que você marca ou desmarca.
 
 > Aparecem aqui os arquivos que **você importou nesta sessão** do programa, com o
 > tamanho de cada um. O Word ou o PDF que você acabou de gerar **não entra
@@ -442,13 +445,17 @@ daquela pessoa, com os arquivos que você escolher em anexo.
 > antes de seguir — o texto padrão promete anexo, então o mais provável é
 > esquecimento.
 >
-> Os anexos de uma mensagem somam no máximo **20 MB**. Acima disso o envio falha
-> e o programa avisa — mande menos arquivos por vez.
+> Os anexos de uma mensagem somam no máximo **24 MB**. Passando disso, a linha
+> **Total selecionado** fica **vermelha** e o programa não deixa enviar: ao
+> clicar em **✉️ Enviar**, aparece o aviso **Anexos acima do limite**, e nenhuma
+> mensagem sai. Desmarque arquivos até o total voltar ao normal e faça o
+> restante em outro envio.
 
 6. Clique em **✉️ Enviar**.
 7. Confira a janela de confirmação: ela repete o remetente, quantas mensagens
-   serão enviadas, para quais endereços e quantos anexos. Clique em **Sim**.
-9. O rodapé mostra **"Enviando…"**. Ao terminar, aparece o
+   serão enviadas, para quais endereços, quantos anexos e o tamanho total deles.
+   Clique em **Sim**.
+8. O rodapé mostra **"Enviando…"**. Ao terminar, aparece o
    **Resultado do envio**: `Enviadas: 3 de 3`, o remetente usado e, se algo
    falhou, a lista das falhas com o motivo de cada uma.
 
@@ -638,10 +645,10 @@ com ele aberto.
 **Causa:** o arquivo que você mandou anexar está aberto no Word ou no Excel.
 **Solução:** feche o arquivo e clique em **✉️ Enviar** de novo.
 
-### "Os anexos somam X MB e o limite é 20 MB."
+### "Os anexos somam X MB e o limite é 24 MB."
 
-**Causa:** os arquivos marcados na área de anexos passam do tamanho que o Gmail aceita.
-**Solução:** desmarque parte dos arquivos e faça mais de um envio.
+**Causa:** os arquivos marcados na área de anexos passam do tamanho que o Gmail aceita. O aviso aparece com o título **Anexos acima do limite**, antes da confirmação, e nada é enviado.
+**Solução:** desmarque parte dos arquivos até a linha **Total selecionado** deixar de ficar vermelha e faça mais de um envio.
 
 ### "Não foi possível conectar ao servidor de e-mail"
 
