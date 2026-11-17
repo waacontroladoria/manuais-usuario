@@ -1,6 +1,6 @@
 # Manual do Usuário — WGPT
 
-> **WGPT — Assistente jurídico**, no Portal WAA (setor Jurídico).
+**WGPT — Assistente jurídico**, no Portal WAA (setor Jurídico).
 > Atualizado em 05/10/2026, com base no código do Portal WAA (commit `44dfb74`).
 
 Este manual explica **o que cada tela faz**, **como a IA decide quem responde** e **como escrever pedidos** para obter as melhores respostas.
