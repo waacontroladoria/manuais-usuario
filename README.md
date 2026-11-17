@@ -4,6 +4,6 @@ O objetivo desse repositório é oferecer instruções de uso para os sistemas e
 
 Ferramentas disponíveis:
 
-1. [Buscador de Procurações](buscador_procuracoes\README.md)
+1. [Buscador de Procurações](buscador_procuracoes/README.md)
 2. [Gestor de Notas](gestor_notas\README.md)
 3. [WGPT - Assistente Jurídico](WGPT\README.md)
