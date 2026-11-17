@@ -2,7 +2,7 @@
 
 **Versão do programa:** 0.1.0  
 **Manual gerado em:** 13/08/2026
-*Commit: não registrado — a pasta do projeto não era um repositório git no momento da geração deste guia.*
+*Commit: xxxx*
 
 Este guia é para quem **usa** o Buscador de Procurações no dia a dia: localizar a procuração
 de uma pessoa e abrir o PDF. Você não precisa saber programar nem instalar nada além do
